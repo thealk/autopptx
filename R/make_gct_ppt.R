@@ -29,5 +29,5 @@ make_gct_ppt <- function(questions, template, name="Thea"){
   for(n in 1:length(qs$Question)){
     tmp <- make_gct_slide(qs$Question[n], qs$QuestionN[n], tmp)
   }
-  print(tmp, target = "test2.pptx") %>% invisible()
+  print(tmp, target = "trivia.pptx") %>% invisible()
 }
