@@ -22,6 +22,10 @@ Given a spreadsheet containing the clever questions you plan to ask next time yo
 - Text is input exactly as it appears in the Question column of the spreadsheet. This means the following types of questions will need to be **manually** edited:
   - Multiple choice
   - Multimedia (images, audio)
+  
+### Resources for making this thing:
+- [Generating powerpoints with `officer`](https://cran.r-project.org/web/packages/officer/vignettes/powerpoint.html)
+- [Using purrr with officer](http://lenkiefer.com/2017/09/27/use-purrr/) (though NB didn't wind up going this route, still a very helpful tutorial)
 
 
 :wave: Hi Elizabeth.
