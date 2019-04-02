@@ -1,7 +1,7 @@
 # gctriviar :question: :beers:
 *A tiny package for automating the preparation of Western University Grad Club Trivia presentations*
 
-Given a spreadsheet containing the clever questions you plan to ask at Trivia, this package will auto-populate a powerpoint presentation.
+Given a spreadsheet containing the clever questions you plan to ask next time you host Trivia, this package will auto-populate a powerpoint presentation for you in the style of Grad Club Trivia.
 
 ### Inputs
 - A spreadsheet (.xlsx) that contains at least two columns ("Question", "QuestionN")
