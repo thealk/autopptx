@@ -3,11 +3,10 @@
 #' @param q Vector containing questions
 #' @param qn Vector containing question numbers
 #' @param pres Powerpoint object on which to add slides
-#'
-#' @return
+#' @import officer
+#' @import magrittr
+#' @import readxl
 #' @export
-#'
-#' @examples
 
 make_gct_slide <- function(q, qn, pres){
   pres <- pres %>%

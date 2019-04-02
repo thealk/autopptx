@@ -3,11 +3,10 @@
 #' This function takes an ordered spreadsheet of trivia questions, the GC powerpoint template, and populates a presentation with questions.
 #' @param template The powerpoint template. Defaults to GCTrivia template (includes cover slide, font, and color scheme)
 #' @param questions An xlsx spreadsheet with at least two columns: Question and QuestionN
-#'
-#' @return
+#' @import officer
+#' @import magrittr
+#' @import readxl
 #' @export
-#'
-#' @examples
 
 # # Make powerpoint
 # library(officer)
