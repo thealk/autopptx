@@ -23,9 +23,11 @@ Given a spreadsheet containing the clever questions you plan to ask next time yo
   - Multiple choice
   - Multimedia (images, audio)
   
-### Resources for making this thing:
+### Super handy resources for making this thing:
 - [Generating powerpoints with `officer`](https://cran.r-project.org/web/packages/officer/vignettes/powerpoint.html)
+- [Crafting a Powerpoint Presentation with R](http://lenkiefer.com/2017/09/23/crafting-a-powerpoint-presentation-with-r/)
 - [Using purrr with officer](http://lenkiefer.com/2017/09/27/use-purrr/) (though NB didn't wind up going this route, still a very helpful tutorial)
+- 
 
 
 :wave: Hi Elizabeth.
