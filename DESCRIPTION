@@ -1,6 +1,6 @@
 Package: gctriviar
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Automate the making of Western University Grad Club Trivia presentations
 Version: 0.1.0
 Author: Thea Knowles
 Maintainer: Thea Knowles <thea.knowles@gmail.com>
