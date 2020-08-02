@@ -20,16 +20,16 @@
 # ext = "xlsx", "txt"
 # type = "gct", "lc"
 
-make_ppt <- function(questions, type="gct"){
+make_ppt <- function(questions, purpose="gct"){
 
-  if(type=="gct"){ # type = Grad Club Trivia
+  if(purpose=="gct"){ # type = Grad Club Trivia
     master = "GCTrivia"
     ext = "xlsx"
     template="GC_Trivia_Template.pptx"
     name="Thea"
     header="Question"
     output = "trivia.pptx"
-  } else if(type=="lc"){ # type = LOUD CROWD
+  } else if(purpose=="lc"){ # type = LOUD CROWD
     m = "LC"
     ext = "txt"
     template="LC_Readings_Template.pptx"
@@ -52,11 +52,11 @@ make_ppt <- function(questions, type="gct"){
             location = ph_location(left = 6.5, top = 3))# %>%
     #add_slide(layout = "R1", master = "GCTrivia")
 
-  for(n in 1:length(qs$Question)){
-    if(type=="gct"){
-      tmp <- make_slide(qs$Question[n], qs$QuestionN[n], tmp, m)
-    }else if(type=="lc"){
-      tmp <- make_slide(qs$Question[n], "", tmp, m)
+  for(n in 1:length(qs$Item)){
+    if(purpose=="gct"){
+      tmp <- make_slide(qs$Item[n], qs$Item[n], tmp, m)
+    }else if(purpose=="lc"){
+      tmp <- make_slide(qs$Item[n], "", tmp, m)
     }
   }
   print(tmp, target = output) %>% invisible()
