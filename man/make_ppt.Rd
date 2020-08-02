@@ -4,7 +4,7 @@
 \alias{make_ppt}
 \title{Populate Powerpoint Function}
 \usage{
-make_ppt(questions, type = "gct")
+make_ppt(questions, purpose = "gct")
 }
 \arguments{
 \item{questions}{An xlsx spreadsheet with at least two columns: Question and QuestionN OR a txt file with the first row labelled Question (TODO: fix)}
