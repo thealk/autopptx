@@ -48,8 +48,9 @@ make_ppt <- function(questions, purpose="gct"){
 
   tmp <- officer::read_pptx(template) %>%
     add_slide(layout = "Title Slide", master = "LC") %>% #, master = master
-    ph_with(paste0("With ", name),
-            location = ph_location(left = 6.5, top = 3))# %>%
+    ph_with(location = ph_location_type(type="body"))
+    #ph_with(paste0("With ", name),
+    #        location = ph_location(left = 6.5, top = 3))# %>%
     #add_slide(layout = "R1", master = "GCTrivia")
 
   for(n in 1:length(qs$Item)){
