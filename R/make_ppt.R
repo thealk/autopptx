@@ -31,7 +31,7 @@ make_ppt <- function(questions, type="gct"){
     output = "trivia.pptx"
   } else if(type=="lc"){ # type = LOUD CROWD
     m = "LC"
-    ext = ".txt"
+    ext = "txt"
     template="LC_Readings_Template.pptx"
     #template="GC_Trivia_Template.pptx"
     name="The LOUD Crowd"
