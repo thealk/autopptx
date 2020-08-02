@@ -1,10 +1,10 @@
-Package: gctriviar
+Package: autopptx
 Type: Package
-Title: Automate the making of Western University Grad Club Trivia presentations
+Title: Automate the making of powerpoint presentations
 Version: 0.1.0
 Author: Thea Knowles
 Maintainer: Thea Knowles <thea.knowles@gmail.com>
-Description: Functions for automating Western University Grad Club Trivia presentations.
+Description: Functions for automating powerpoint presentations.
 License: What license is it under? Great question. No clue.
 Encoding: UTF-8
 LazyData: true
@@ -13,4 +13,4 @@ Imports:
     readxl,
     magrittr
 VignetteBuilder: knitr
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.1
